@@ -1,1 +1,32 @@
+:root {
+  --primary-color: #8b4513; 
+  --secondary-color: #e6c9a8; 
+  --accent-color: #d4af37; 
+  --text-color: #333333;
+  --light-text: #ffffff;
+  --background-color: #faf7f2;
+  --footer-bg: #2b2118;
+  --section-padding: 4rem 0;
+  --border-radius: 8px;
+  --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  --transition: all 0.3s ease;
+}
 
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Libre Baskerville', Georgia, serif;
+  line-height: 1.6;
+  color: var(--text-color);
+  background-color: var(--background-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  line-height: 1.2;
+}
